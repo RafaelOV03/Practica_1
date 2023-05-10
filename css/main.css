@@ -12,30 +12,36 @@ body {
 }
 
 h1 {
-    font-size: 2rem;
-    color:#5204a0;
+    font-size: 3rem;
+    color:#ffffff;
 }
 
 h2 {
-    font-size: 1.5rem;
+    font-size: rem;
     text-align: center;
-    border-bottom: 2px solid #807e7e;
+    border-bottom: 5px solid #807e7e;
+}
+
+h3 {
+    font-size: rem;
+    text-align: center;
+    border-bottom: 5px solid #807e7e;
 }
 
 header, main, footer {
     margin: 1.25rem auto;
     padding: .5rem;
-    max-width: 600px;
+    max-width: 2000px;
 }
 
 header, footer, footer a {
     text-align: center;
-    background-color:#af0412;
-    color: whitesmoke;
+    background-color:#02276e;
+    color: rgb(62, 62, 62);
 }
 
 header img {
-    width: 150px;
+    width: 200px;
     height: auto;
     float: right;
 }
