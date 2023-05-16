@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <style>
+            #chr {
+                position: relative;
+                top: 0px;
+                left: 0px;
+            }
+            #obj1 {
+                position: relative;
+                top: 0px;
+                left: 0px;
+            }
+            .go {
+                color: green;
+            }
+            .stop {
+                color: red;
+            }
+        </style>
+        <script src="script.js"></script>
+        <script src="tiempo.js"></script>
+        <script src="prueba1.js"></script>
+    </head>
+
+    <body  onkeydown="move(event)" onkeyup="stop(event)">
+
+        <img id="chr" src="../imagenes/logo.png" width = "30" >
+        <img id="obj1" src="../imagenes/logo.png" width = "40" >
+
+        <div id="my_box">
+            <h3>Hello World</h3>
+        </div>
+        <button id="start">Start</button>
+        <button id="stop">Stop</button>
+    </body>
+</html>
