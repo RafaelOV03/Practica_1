@@ -1,6 +1,8 @@
 let interval = setInterval(update, 17);
-
+for(let i = 0; i<100; i++){
 document.log("Hola mundo!!!!!");
+}
+
 
 function update() {
     var id2 = document.getElementById("obj1");
