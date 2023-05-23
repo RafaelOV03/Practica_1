@@ -1,5 +1,5 @@
 let interval = setInterval(update, 17);
-var tiempo = 0;
+
 function update() {
     var id2 = document.getElementById("obj1");
     tiempo++;
